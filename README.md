@@ -7,6 +7,7 @@ It exposes a small set of **REST endpoints** that the frontend uses to create, l
 
 ## What you get
 - **REST API** with routes:
+  - `GET /` - a friendly landing that returns "Todo API is running`
   - `GET /tasks` — list all tasks and a simple summary
   - `POST /tasks` — create a new task
   - `PUT /tasks/:id` — update a task (title, color, or completed)
@@ -15,6 +16,21 @@ It exposes a small set of **REST endpoints** that the frontend uses to create, l
 - **Prisma schema & migrations** for a reproducible database
 - **CORS** enabled (so the Next.js frontend at `http://localhost:3000` can call the API)
 - A **simple health check** at `GET /health` that returns `{ "ok": true }`
+
+REST API route screenshot examples:
+
+- GET `/`
+
+  <img width="263" height="87" alt="image" src="https://github.com/user-attachments/assets/c665e9c8-242a-45aa-9047-904c7b3ffc0c" />
+- GET `/health`
+
+  <img width="320" height="99" alt="image" src="https://github.com/user-attachments/assets/ab96480e-0d20-4754-bc53-682369478bc3" />
+
+- GET `/tasks`
+
+  <img width="957" height="273" alt="image" src="https://github.com/user-attachments/assets/2d1c5c2e-181f-47c3-b4ae-c402518c5ca4" />
+
+
 
 ## Prerequisites
 
