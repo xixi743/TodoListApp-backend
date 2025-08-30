@@ -1,5 +1,18 @@
 # Todo List API (Express + Prisma + MySQL)
 This repository is the **backend (API)** for the Todo List App. 
+
+> 🧩 **This API is one half of the Todo List App.**  
+> It’s designed to be used together with the Next.js frontend:
+>
+> **Frontend repo:** https://github.com/xixi743/TodoListApp-frontend
+>
+> **Local defaults**
+> - API: http://localhost:4000
+> - Frontend: http://localhost:3000
+>
+> Start the API first, then run the frontend.
+
+
 It exposes a small set of **REST endpoints** that the frontend uses to create, list, update, and delete tasks.
 - **Express** is the web server that handles HTTP requests.
 - **Prisma** is the database toolkit/ORM that talks to MySQL.
