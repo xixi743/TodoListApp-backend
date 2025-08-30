@@ -14,9 +14,10 @@ It exposes a small set of **REST endpoints** that the frontend uses to create, l
 - **TypeScript** for better safety and editor autocomplete
 - **Prisma schema & migrations** for a reproducible database
 - **CORS** enabled (so the Next.js frontend at `http://localhost:3000` can call the API)
-- A **simple health** check at `GET /health` that returns `{ "ok": true }`
+- A **simple health check** at `GET /health` that returns `{ "ok": true }`
 
 ## Prerequisites
+
 You only need two things installed locally:
 
 1. **Node.js 18+**
