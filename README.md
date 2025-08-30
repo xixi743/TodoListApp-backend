@@ -137,6 +137,8 @@ npm run dev
     Open `http://localhost:4000/health` -> you should see `{"ok":true}`. 
     > Tip: You can also open a friendly DB UI with
     > `npx prisma studio` -> http://localhost:5555
+    > <img width="1495" height="461" alt="image" src="https://github.com/user-attachments/assets/918851aa-37bf-4b7b-8538-8b6da9c380f7" />
+
 
   ## API Reference (with examples)
   All endpoints are relative to `http://localhost:4000`.
